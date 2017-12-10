@@ -83,8 +83,7 @@ def xbeereceive(ser, symkey, filename):
     #open new file
     k = open(filename, 'a')
     ackNumber = 0
-    while True:
-	print ackNumber	
+    while True:	
 	#read in 100 bytes (xbee max length)
 	incoming = ser.read(100)
 	#print incoming
