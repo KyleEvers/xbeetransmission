@@ -12,7 +12,7 @@
 `xbeetransmission` can be installed directly via pip:
 
 ```bash
-pip install pshtt
+pip install xbeetransmission
 ```
 
 #### Usage and examples
